@@ -28,7 +28,7 @@ public class ConditionalStatements {
         }
         //----------switch case-------------------//
 
-        int menu = 2;
+        int menu = 1;
         switch (menu) {
             case 1:
                 System.out.println("main menu");
@@ -43,5 +43,9 @@ public class ConditionalStatements {
                 System.out.println("invalid parameter");
                 //nie dopisujemy break bo default piszemy na koncu instrukcji
         }
+        //---------------short if-----------------//
+        String even = (menu%2==0) ? "yes": "no";
+        System.out.println(even);
+        //warunek ? jesliTrue : jesliFalse;
     }
 }
