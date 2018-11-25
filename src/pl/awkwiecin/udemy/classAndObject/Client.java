@@ -3,23 +3,24 @@ package pl.awkwiecin.udemy.classAndObject;
 public class Client {
 
     public static final String COMPANY_NAME = "CNE Studio";
-    private String FirstName;
-    private String LastName;
+    private String firstName;
+    private String lastName;
+    private Address address;
 
     public String getFirstName() {
-        return FirstName;
+        return firstName;
     }
 
     public void setFirstName(String firstName) {
-        FirstName = firstName;
+        this.firstName = firstName;
     }
 
     public String getLastName() {
-        return LastName;
+        return lastName;
     }
 
     public void setLastName(String lastName) {
-        LastName = lastName;
+        this.lastName = lastName;
     }
 
     public Address getAddress() {
@@ -30,5 +31,11 @@ public class Client {
         this.address = address;
     }
 
-    private Address address;
+    public void introduceYourself() {
+        System.out.println("Hello, I am " + getFirstAndLastName() + ".");
+    }
+
+    private String getFirstAndLastName() {
+        return firstName + " " + lastName;
+    }
 }
