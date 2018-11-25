@@ -1,4 +1,4 @@
-package pl.awkwiecin.udemy.variables;
+package pl.awkwiecin.udemy.Solutions;
 
 public class HomeworkArrays {
     public static void main(String[] args) {
