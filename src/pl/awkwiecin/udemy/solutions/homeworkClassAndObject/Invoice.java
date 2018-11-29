@@ -1,4 +1,4 @@
-package pl.awkwiecin.udemy.solutions;
+package pl.awkwiecin.udemy.solutions.homeworkClassAndObject;
 
 import pl.awkwiecin.udemy.classAndObject.Client;
 

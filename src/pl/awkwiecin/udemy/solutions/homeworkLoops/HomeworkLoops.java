@@ -1,4 +1,4 @@
-package pl.awkwiecin.udemy.solutions;
+package pl.awkwiecin.udemy.solutions.homeworkLoops;
 
 public class HomeworkLoops {
     public static void main(String[] args) {

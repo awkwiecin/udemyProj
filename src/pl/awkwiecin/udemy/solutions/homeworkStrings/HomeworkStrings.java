@@ -1,4 +1,4 @@
-package pl.awkwiecin.udemy.solutions;
+package pl.awkwiecin.udemy.solutions.homeworkStrings;
 
 public class HomeworkStrings {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package pl.awkwiecin.udemy.solutions;
+package pl.awkwiecin.udemy.solutions.homeworkSwitch;
 
 public class HomeworkSwitch {
     public static void main(String[] args) {
