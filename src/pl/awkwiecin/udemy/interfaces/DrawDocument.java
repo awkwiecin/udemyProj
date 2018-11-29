@@ -13,4 +13,9 @@ public class DrawDocument implements Document {
         //dodatkowe operacje
         return "draw file: " + path;
     }
+
+
+    public void draw(OnClickListener ocl) {
+        System.out.println("draw...");
+    }
 }

@@ -1,4 +1,4 @@
 package pl.awkwiecin.udemy.interfaces;
 
-public class AbstractDocument {
+public abstract class AbstractDocument implements Document {
 }

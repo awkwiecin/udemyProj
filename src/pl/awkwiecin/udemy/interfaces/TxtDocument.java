@@ -1,9 +1,11 @@
 package pl.awkwiecin.udemy.interfaces;
 
-public class TxtDocument implements Document {
+import java.io.Serializable;
+
+public class TxtDocument implements Document, Serializable {
     @Override
     public boolean save() {
-        String s=d;
+        String s = d;
         // d=""; dodatkowe operacje
         System.out.println("Save Txt Doc.");
         return true;
