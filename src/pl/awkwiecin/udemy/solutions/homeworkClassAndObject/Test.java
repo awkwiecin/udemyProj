@@ -1,6 +1,8 @@
 package pl.awkwiecin.udemy.solutions.homeworkClassAndObject;
 
 import pl.awkwiecin.udemy.classAndObject.Invoice;
+import pl.awkwiecin.udemy.classAndObject.Client;
+import pl.awkwiecin.udemy.classAndObject.Address;
 
 public class Test {
     public static void main(String[] args) {
