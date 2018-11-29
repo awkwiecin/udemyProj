@@ -29,5 +29,12 @@ public class FactoryTest {
         carFactory.destroy();
         carFactory.checkState();
         phoneFactory.checkState();
+        System.out.println(phoneFactory.introduceYourself());
+
+        CarFactory car1 = new CarFactory();
+        CarFactory car2 = new CarFactory();
+        car1.setName("C");
+        car2.setName("C");
+        System.out.println(car1.equals(car2));
     }
 }
