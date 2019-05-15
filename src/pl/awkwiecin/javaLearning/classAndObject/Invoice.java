@@ -1,5 +1,6 @@
 package pl.awkwiecin.javaLearning.classAndObject;
 
+
 public class Invoice {
     private String product;
     private double price;
@@ -76,7 +77,7 @@ public class Invoice {
     }
 
     private double calculateTax(double totalPrice) {
-        return totalPrice * 0.18;
+        return totalPrice * ConstantVariables.tax;
     }
 
     private double calculateProfit(double totalPrice, double taxToPay) {

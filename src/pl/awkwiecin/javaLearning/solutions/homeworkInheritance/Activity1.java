@@ -12,7 +12,8 @@ public class Activity1 extends Activity {
         System.out.println("Activity1");
         super.onStop();
     }
-    public void makeSound() {
+
+    void makeSound() {
         System.out.println("RingRing....");
     }
 }

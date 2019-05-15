@@ -14,17 +14,6 @@ public class FactoryTest {
         phoneFactory.checkState();
         phoneFactory.produce();
 
-//        Factory factory = new Factory() {
-//            @Override
-//            public void produce() {
-//                super.produce();
-//            }
-//
-//            @Override
-//            public void checkState() {
-//                super.checkState();
-//            }
-//        };
         phoneFactory.destroy();
         carFactory.destroy();
         carFactory.checkState();

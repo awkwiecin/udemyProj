@@ -14,9 +14,7 @@ public class FunWithString {
         String text2 = "a" + "b";
         System.out.println(text);
         System.out.println(text2);
-//        if (text==text2){
-//            System.out.println("equals");
-//        }
+
         if (text.equals(text2)) {
             System.out.println("equals");
         }
@@ -31,19 +29,16 @@ public class FunWithString {
 
         String result = "";
         for (String str : strings) {
-//            System.out.println(str);
+
             result = result + str + ", ";
-            //System.out.println(result);
+
         }
         System.out.println(StrUtils.removeLastSeparator(result, ","));
 
         StringBuilder sb = new StringBuilder();
 
         String res = "";
-//        for (int i = 0; i < 1000000; i++) {
-//            res += "a";
-//        }
-//        System.out.println(res);
+
         for (int i = 0; i < 1000000; i++) {
             sb.append("a");
         }

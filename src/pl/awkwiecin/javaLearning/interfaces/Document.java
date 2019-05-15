@@ -4,7 +4,6 @@ public interface Document /*extends OnClickListener*/ {
 
     public String d = "d";
 
-   // private void foo();
 
     public boolean save();
 

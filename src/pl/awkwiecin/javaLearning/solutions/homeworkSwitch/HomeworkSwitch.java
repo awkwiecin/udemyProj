@@ -7,12 +7,11 @@ public class HomeworkSwitch {
             homeworkArray[i] = i;
         }
         for (int i : homeworkArray) {
-            if (i%3==0 && i%7==0 && i<987) {
+            if (i % 3 == 0 && i % 7 == 0 && i < 987) {
                 System.out.print(i);
                 System.out.print(", ");
 
-            }
-            else  if (i==987){
+            } else if (i == 987) {
                 System.out.println(i);
             }
         }

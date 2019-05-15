@@ -6,11 +6,7 @@ public class Loops {
         for (int i = 0; i < 30; i++) { //for (int i = 1; i <= 30; i++)
             System.out.println("nr# " + i);
         }
-     /* infinite loop
-        for (;;){
-            System.out.println("p");
-        }
-     */
+
         int l = 20;
         for (; l > 10; l--) {
             System.out.println(l);
@@ -33,10 +29,6 @@ public class Loops {
             System.out.println(i);
         }
 
-        //-----while----------//
-//        while (true) { //infinite loop
-//            System.out.println(true);
-//        }
 
         int z = 200;
         while (z % 3 != 0) {
@@ -55,9 +47,7 @@ public class Loops {
 
             for (int j = 0; j < 100; j++) {
                 System.out.println("j= " + j);
-                //continue LABEL;
-                //continue;
-                 break LABEL;
+                break LABEL;
             }
 
         }

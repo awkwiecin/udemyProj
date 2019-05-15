@@ -41,11 +41,11 @@ public class ConditionalStatements {
                 break;
             default:
                 System.out.println("invalid parameter");
-                //nie dopisujemy break bo default piszemy na koncu instrukcji
+
         }
         //---------------short if-----------------//
         String even = (menu%2==0) ? "yes": "no";
         System.out.println(even);
-        //warunek ? jesliTrue : jesliFalse;
+
     }
 }

@@ -18,10 +18,6 @@ public class Poly {
         Box<Document> box = new Box<>();
         box.setT(new TxtDocument());
         box.setT(new DrawDocument());
-        //box.setT(""); no can do, gdyz albowiem string nie jest typu Document
-
-//        Box<String> b2 = new Box<>();
-//        b2.setT("");
 
         String n = "1";
         Object o = "abc";

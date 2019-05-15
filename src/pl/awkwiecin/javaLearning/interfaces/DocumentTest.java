@@ -21,8 +21,8 @@ public class DocumentTest {
             }
         };
 
-        draw.draw(() -> { //wyrazenie lambda, nie tworzymy interfejsu
-            System.out.println("onClick"); // nie wydrukuje się bo przekazujemy obiekt, z którym potem nic nie robimy
+        draw.draw(() -> {
+            System.out.println("onClick");
         });
 
     }

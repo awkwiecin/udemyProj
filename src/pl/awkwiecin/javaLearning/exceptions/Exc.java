@@ -10,10 +10,6 @@ public class Exc {
         int x = 4;
         int y = 0;
 
-//        if(y==0) {
-//
-//        }
-
         try {
             System.out.println((x / y));
         } catch (/*Exeption*/ArithmeticException e) { //najbardziej szczególny wyjątek
